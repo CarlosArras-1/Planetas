@@ -10,4 +10,22 @@ this.composition=composition;
 this.distance_earth=distance_earth;
 this.speed=speed;
     }
+public void setName(String newName){
+        this.name=newName;
+}
+public String getName(){
+        return this.name;
+}
+    public void setComposition(String newComposition){
+        this.composition=newComposition;
+    }
+    public String getComposition(){
+        return this.composition;
+    }
+
+
+
+
+
+
 }
